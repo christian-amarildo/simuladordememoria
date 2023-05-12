@@ -7,7 +7,7 @@ while True:
     
     if entrada == "W":
         endereco = int(input("Digite o endereço de 4 bits: "))
-        if endereco < 0 or endereco > 4:
+        if endereco != 4:
             print("Endereço inválido!")
             continue
         dado = input("Digite o dado de 8 bits: ")
